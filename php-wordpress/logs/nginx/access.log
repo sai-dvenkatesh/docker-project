@@ -1,0 +1,7 @@
+172.18.0.1 - - [19/May/2019:21:33:41 +0000] "GET / HTTP/1.1" 502 158 "-" "curl/7.53.1"
+192.168.0.5 - - [19/May/2019:21:34:08 +0000] "GET / HTTP/1.1" 502 560 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36"
+192.168.0.5 - - [19/May/2019:21:34:09 +0000] "GET /favicon.ico HTTP/1.1" 502 560 "http://192.168.0.6/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36"
+172.18.0.1 - - [19/May/2019:21:39:50 +0000] "GET / HTTP/1.1" 502 158 "-" "curl/7.53.1"
+172.18.0.1 - - [19/May/2019:21:41:18 +0000] "GET / HTTP/1.1" 502 158 "-" "curl/7.53.1"
+192.168.0.5 - - [19/May/2019:21:47:06 +0000] "GET / HTTP/1.1" 502 560 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36"
+192.168.0.5 - - [19/May/2019:21:47:06 +0000] "GET /favicon.ico HTTP/1.1" 502 560 "http://192.168.0.6/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36"
