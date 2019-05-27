@@ -1,0 +1,53 @@
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: posts","time":"2019-05-26T19:59:35.835Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: users","time":"2019-05-26T19:59:35.911Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: posts_authors","time":"2019-05-26T19:59:36.023Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: roles","time":"2019-05-26T19:59:36.191Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: roles_users","time":"2019-05-26T19:59:36.251Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: permissions","time":"2019-05-26T19:59:36.306Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: permissions_users","time":"2019-05-26T19:59:36.393Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: permissions_roles","time":"2019-05-26T19:59:36.429Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: permissions_apps","time":"2019-05-26T19:59:36.480Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: settings","time":"2019-05-26T19:59:36.541Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: tags","time":"2019-05-26T19:59:36.617Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: posts_tags","time":"2019-05-26T19:59:36.688Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: apps","time":"2019-05-26T19:59:36.864Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: app_settings","time":"2019-05-26T19:59:36.933Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: app_fields","time":"2019-05-26T19:59:37.093Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: clients","time":"2019-05-26T19:59:37.214Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: client_trusted_domains","time":"2019-05-26T19:59:37.283Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: accesstokens","time":"2019-05-26T19:59:37.403Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: refreshtokens","time":"2019-05-26T19:59:37.603Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: subscribers","time":"2019-05-26T19:59:37.785Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: invites","time":"2019-05-26T19:59:38.301Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: brute","time":"2019-05-26T19:59:38.387Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: webhooks","time":"2019-05-26T19:59:38.404Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: sessions","time":"2019-05-26T19:59:38.461Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: integrations","time":"2019-05-26T19:59:38.518Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: api_keys","time":"2019-05-26T19:59:38.588Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: mobiledoc_revisions","time":"2019-05-26T19:59:38.641Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: members","time":"2019-05-26T19:59:38.703Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Creating table: actions","time":"2019-05-26T19:59:38.759Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Model: Tag","time":"2019-05-26T19:59:38.824Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Model: Client","time":"2019-05-26T19:59:38.953Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Model: Role","time":"2019-05-26T19:59:38.990Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Model: Permission","time":"2019-05-26T19:59:39.058Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Model: User","time":"2019-05-26T19:59:39.453Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Model: Post","time":"2019-05-26T19:59:41.807Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Model: Integration","time":"2019-05-26T19:59:42.512Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Relation: Role to Permission","time":"2019-05-26T19:59:42.528Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Relation: Post to Tag","time":"2019-05-26T19:59:42.888Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Relation: User to Role","time":"2019-05-26T19:59:42.958Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Ghost is running in production...","time":"2019-05-26T19:59:49.773Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Your site is now available on http://ghost/","time":"2019-05-26T19:59:49.778Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Ctrl+C to shut down","time":"2019-05-26T19:59:49.780Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Ghost boot 20.575s","time":"2019-05-26T19:59:49.808Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"req":{"meta":{"requestId":"e4808fa0-7ff0-11e9-905f-0978b5d08992","userId":null},"url":"/","method":"GET","originalUrl":"/","params":{},"headers":{"host":"192.168.0.6:2368","connection":"keep-alive","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","accept-encoding":"gzip, deflate","accept-language":"en-US,en;q=0.9"},"query":{}},"res":{"_headers":{"x-powered-by":"Express","cache-control":"public, max-age=0","content-type":"text/html; charset=utf-8","etag":"W/\"5444-cLFW9+ye6mNk/YPcLUl8vrljauw\"","vary":"Accept-Encoding","content-encoding":"gzip"},"statusCode":200,"responseTime":"1296ms"},"msg":"","time":"2019-05-26T20:00:22.703Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"req":{"meta":{"requestId":"e55285a0-7ff0-11e9-905f-0978b5d08992","userId":null},"url":"/assets/built/screen.css?v=6e365d2463","method":"GET","originalUrl":"/assets/built/screen.css?v=6e365d2463","params":{},"headers":{"host":"192.168.0.6:2368","connection":"keep-alive","user-agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36","accept":"text/css,*/*;q=0.1","referer":"http://192.168.0.6:2368/","accept-encoding":"gzip, deflate","accept-language":"en-US,en;q=0.9"},"query":{"v":"6e365d2463"}},"res":{"_headers":{"x-powered-by":"Express","accept-ranges":"bytes","cache-control":"public, max-age=31536000","last-modified":"Sat, 26 Oct 1985 08:15:00 GMT","etag":"W/\"9ed5-7438674ba0\"","content-type":"text/css; charset=UTF-8","vary":"Accept-Encoding","content-encoding":"gzip"},"statusCode":200,"responseTime":"16ms"},"msg":"","time":"2019-05-26T20:00:22.796Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"req":{"meta":{"requestId":"e55803e0-7ff0-11e9-905f-0978b5d08992","userId":null},"url":"/assets/built/infinitescroll.js?v=6e365d2463","method":"GET","originalUrl":"/assets/built/infinitescroll.js?v=6e365d2463","params":{},"headers":{"host":"192.168.0.6:2368","connection":"keep-alive","user-agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36","accept":"*/*","referer":"http://192.168.0.6:2368/","accept-encoding":"gzip, deflate","accept-language":"en-US,en;q=0.9"},"query":{"v":"6e365d2463"}},"res":{"_headers":{"x-powered-by":"Express","accept-ranges":"bytes","cache-control":"public, max-age=31536000","last-modified":"Sat, 26 Oct 1985 08:15:00 GMT","etag":"W/\"3f0-7438674ba0\"","content-type":"application/javascript; charset=UTF-8","content-length":1008,"vary":"Accept-Encoding"},"statusCode":200,"responseTime":"17ms"},"msg":"","time":"2019-05-26T20:00:22.833Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"req":{"meta":{"requestId":"e557dcd0-7ff0-11e9-905f-0978b5d08992","userId":null},"url":"/assets/built/jquery.fitvids.js?v=6e365d2463","method":"GET","originalUrl":"/assets/built/jquery.fitvids.js?v=6e365d2463","params":{},"headers":{"host":"192.168.0.6:2368","connection":"keep-alive","user-agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36","accept":"*/*","referer":"http://192.168.0.6:2368/","accept-encoding":"gzip, deflate","accept-language":"en-US,en;q=0.9"},"query":{"v":"6e365d2463"}},"res":{"_headers":{"x-powered-by":"Express","accept-ranges":"bytes","cache-control":"public, max-age=31536000","last-modified":"Sat, 26 Oct 1985 08:15:00 GMT","etag":"W/\"777-7438674ba0\"","content-type":"application/javascript; charset=UTF-8","vary":"Accept-Encoding","content-encoding":"gzip"},"statusCode":200,"responseTime":"21ms"},"msg":"","time":"2019-05-26T20:00:22.835Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":40,"msg":"Ghost has shut down","time":"2019-05-26T20:00:47.063Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Ghost is running in production...","time":"2019-05-26T20:03:27.479Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Your site is now available on http://ghost/","time":"2019-05-26T20:03:27.481Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Ctrl+C to shut down","time":"2019-05-26T20:03:27.481Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":30,"msg":"Ghost boot 17.392s","time":"2019-05-26T20:03:27.483Z","v":0}
+{"name":"Log","hostname":"28aa822b9a1d","pid":1,"level":40,"msg":"Ghost has shut down","time":"2019-05-26T20:11:29.912Z","v":0}

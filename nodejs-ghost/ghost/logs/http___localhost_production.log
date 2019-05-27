@@ -1,0 +1,59 @@
+{"name":"Log","hostname":"4b2470aa6994","pid":1,"level":30,"msg":"Ghost is running in production...","time":"2019-05-26T20:11:44.152Z","v":0}
+{"name":"Log","hostname":"4b2470aa6994","pid":1,"level":30,"msg":"Your site is now available on http://localhost/","time":"2019-05-26T20:11:44.154Z","v":0}
+{"name":"Log","hostname":"4b2470aa6994","pid":1,"level":30,"msg":"Ctrl+C to shut down","time":"2019-05-26T20:11:44.155Z","v":0}
+{"name":"Log","hostname":"4b2470aa6994","pid":1,"level":30,"msg":"Ghost boot 12.398s","time":"2019-05-26T20:11:44.201Z","v":0}
+{"name":"Log","hostname":"4b2470aa6994","pid":1,"level":40,"msg":"Ghost has shut down","time":"2019-05-26T20:13:44.384Z","v":0}
+{"name":"Log","hostname":"4b2470aa6994","pid":1,"level":50,"err":{"id":500,"domain":"http://localhost","code":"ECONNREFUSED","name":"DatabaseError","statusCode":500,"level":"normal","message":"connect ECONNREFUSED 172.19.0.4:3306","help":"\"Unknown database error\"","stack":"DatabaseError: connect ECONNREFUSED 172.19.0.4:3306\n    at DatabaseError.KnexMigrateError (/var/lib/ghost/versions/2.22.3/node_modules/knex-migrator/lib/errors.js:7:26)\n    at new DatabaseError (/var/lib/ghost/versions/2.22.3/node_modules/knex-migrator/lib/errors.js:56:26)\n    at connection.raw.catch (/var/lib/ghost/versions/2.22.3/node_modules/knex-migrator/lib/database.js:40:19)\n    at tryCatcher (/var/lib/ghost/versions/2.22.3/node_modules/bluebird/js/release/util.js:16:23)\n    at Promise._settlePromiseFromHandler (/var/lib/ghost/versions/2.22.3/node_modules/bluebird/js/release/promise.js:512:31)\n    at Promise._settlePromise (/var/lib/ghost/versions/2.22.3/node_modules/bluebird/js/release/promise.js:569:18)\n    at Promise._settlePromise0 (/var/lib/ghost/versions/2.22.3/node_modules/bluebird/js/release/promise.js:614:10)\n    at Promise._settlePromises (/var/lib/ghost/versions/2.22.3/node_modules/bluebird/js/release/promise.js:690:18)\n    at _drainQueueStep (/var/lib/ghost/versions/2.22.3/node_modules/bluebird/js/release/async.js:138:12)\n    at _drainQueue (/var/lib/ghost/versions/2.22.3/node_modules/bluebird/js/release/async.js:131:9)\n    at Async._drainQueues (/var/lib/ghost/versions/2.22.3/node_modules/bluebird/js/release/async.js:147:5)\n    at Immediate.Async.drainQueues [as _onImmediate] (/var/lib/ghost/versions/2.22.3/node_modules/bluebird/js/release/async.js:17:14)\n    at runCallback (timers.js:705:18)\n    at tryOnImmediate (timers.js:676:5)\n    at processImmediate (timers.js:658:5)\n\nError: connect ECONNREFUSED 172.19.0.4:3306\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)\n    --------------------\n    at Protocol._enqueue (/var/lib/ghost/versions/2.22.3/node_modules/mysql/lib/protocol/Protocol.js:144:48)\n    at Protocol.handshake (/var/lib/ghost/versions/2.22.3/node_modules/mysql/lib/protocol/Protocol.js:51:23)\n    at Connection.connect (/var/lib/ghost/versions/2.22.3/node_modules/mysql/lib/Connection.js:118:18)\n    at _bluebird.default (/var/lib/ghost/versions/2.22.3/node_modules/knex-migrator/node_modules/knex/lib/dialects/mysql/index.js:82:18)\n    at Promise._execute (/var/lib/ghost/versions/2.22.3/node_modules/bluebird/js/release/debuggability.js:313:9)\n    at Promise._resolveFromExecutor (/var/lib/ghost/versions/2.22.3/node_modules/bluebird/js/release/promise.js:483:18)\n    at new Promise (/var/lib/ghost/versions/2.22.3/node_modules/bluebird/js/release/promise.js:79:10)\n    at Client_MySQL.acquireRawConnection (/var/lib/ghost/versions/2.22.3/node_modules/knex-migrator/node_modules/knex/lib/dialects/mysql/index.js:77:12)\n    at create (/var/lib/ghost/versions/2.22.3/node_modules/knex-migrator/node_modules/knex/lib/client.js:282:21)\n    at tryPromise (/var/lib/ghost/versions/2.22.3/node_modules/tarn/lib/Pool.js:366:22)\n    at tryPromise (/var/lib/ghost/versions/2.22.3/node_modules/tarn/lib/utils.js:57:20)\n    at Promise (/var/lib/ghost/versions/2.22.3/node_modules/tarn/lib/Pool.js:366:5)\n    at Promise._execute (/var/lib/ghost/versions/2.22.3/node_modules/bluebird/js/release/debuggability.js:313:9)\n    at Promise._resolveFromExecutor (/var/lib/ghost/versions/2.22.3/node_modules/bluebird/js/release/promise.js:483:18)\n    at new Promise (/var/lib/ghost/versions/2.22.3/node_modules/bluebird/js/release/promise.js:79:10)\n    at callbackOrPromise (/var/lib/ghost/versions/2.22.3/node_modules/tarn/lib/Pool.js:357:10)"},"msg":"connect ECONNREFUSED 172.19.0.4:3306","time":"2019-05-26T20:16:35.704Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: posts","time":"2019-05-26T20:25:04.516Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: users","time":"2019-05-26T20:25:04.715Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: posts_authors","time":"2019-05-26T20:25:04.806Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: roles","time":"2019-05-26T20:25:04.989Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: roles_users","time":"2019-05-26T20:25:05.064Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: permissions","time":"2019-05-26T20:25:05.109Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: permissions_users","time":"2019-05-26T20:25:05.192Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: permissions_roles","time":"2019-05-26T20:25:05.243Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: permissions_apps","time":"2019-05-26T20:25:05.298Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: settings","time":"2019-05-26T20:25:05.353Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: tags","time":"2019-05-26T20:25:05.424Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: posts_tags","time":"2019-05-26T20:25:05.497Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: apps","time":"2019-05-26T20:25:05.761Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: app_settings","time":"2019-05-26T20:25:05.890Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: app_fields","time":"2019-05-26T20:25:06.012Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: clients","time":"2019-05-26T20:25:06.113Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: client_trusted_domains","time":"2019-05-26T20:25:06.179Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: accesstokens","time":"2019-05-26T20:25:06.268Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: refreshtokens","time":"2019-05-26T20:25:06.699Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: subscribers","time":"2019-05-26T20:25:06.929Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: invites","time":"2019-05-26T20:25:07.001Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: brute","time":"2019-05-26T20:25:07.121Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: webhooks","time":"2019-05-26T20:25:07.140Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: sessions","time":"2019-05-26T20:25:07.195Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: integrations","time":"2019-05-26T20:25:07.274Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: api_keys","time":"2019-05-26T20:25:07.391Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: mobiledoc_revisions","time":"2019-05-26T20:25:07.463Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: members","time":"2019-05-26T20:25:07.532Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Creating table: actions","time":"2019-05-26T20:25:07.602Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Model: Tag","time":"2019-05-26T20:25:07.709Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Model: Client","time":"2019-05-26T20:25:07.917Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Model: Role","time":"2019-05-26T20:25:07.964Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Model: Permission","time":"2019-05-26T20:25:08.004Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Model: User","time":"2019-05-26T20:25:08.408Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Model: Post","time":"2019-05-26T20:25:10.444Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Model: Integration","time":"2019-05-26T20:25:11.203Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Relation: Role to Permission","time":"2019-05-26T20:25:11.219Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Relation: Post to Tag","time":"2019-05-26T20:25:11.573Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Relation: User to Role","time":"2019-05-26T20:25:11.629Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Ghost is running in production...","time":"2019-05-26T20:25:20.371Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Your site is now available on http://localhost/","time":"2019-05-26T20:25:20.373Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Ctrl+C to shut down","time":"2019-05-26T20:25:20.374Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Ghost boot 21.122s","time":"2019-05-26T20:25:20.516Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":40,"msg":"Ghost has shut down","time":"2019-05-26T20:29:30.179Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Ghost is running in production...","time":"2019-05-26T20:29:52.497Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Your site is now available on http://localhost/","time":"2019-05-26T20:29:52.512Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Ctrl+C to shut down","time":"2019-05-26T20:29:52.512Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":30,"msg":"Ghost boot 15.661s","time":"2019-05-26T20:29:52.666Z","v":0}
+{"name":"Log","hostname":"a06da26fef45","pid":1,"level":40,"msg":"Ghost has shut down","time":"2019-05-26T20:31:05.888Z","v":0}
+{"name":"Log","hostname":"809e9c227e72","pid":1,"level":30,"msg":"Ghost is running in production...","time":"2019-05-26T20:31:26.549Z","v":0}
+{"name":"Log","hostname":"809e9c227e72","pid":1,"level":30,"msg":"Your site is now available on http://localhost/","time":"2019-05-26T20:31:26.563Z","v":0}
+{"name":"Log","hostname":"809e9c227e72","pid":1,"level":30,"msg":"Ctrl+C to shut down","time":"2019-05-26T20:31:26.564Z","v":0}
+{"name":"Log","hostname":"809e9c227e72","pid":1,"level":30,"msg":"Ghost boot 17.481s","time":"2019-05-26T20:31:26.604Z","v":0}

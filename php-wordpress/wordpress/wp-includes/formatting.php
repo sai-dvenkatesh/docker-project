@@ -506,6 +506,12 @@ function wpautop( $pee, $br = true ) {
 		$pee = preg_replace( '%\s*(<(?:source|track)[^>]*>)\s*%', '$1', $pee );
 	}
 
+	// Collapse line breaks before and after <figcaption> elements.
+	if ( strpos( $pee, '<figcaption' ) !== false ) {
+		$pee = preg_replace( '|\s*(<figcaption[^>]*>)|', '$1', $pee );
+		$pee = preg_replace( '|</figcaption>\s*|', '</figcaption>', $pee );
+	}
+
 	// Remove more than two contiguous line breaks.
 	$pee = preg_replace("/\n\n+/", "\n\n", $pee);
 
@@ -2727,10 +2733,12 @@ function wp_rel_nofollow_callback( $matches ) {
 	$atts = shortcode_parse_atts( $matches[1] );
 	$rel  = 'nofollow';
 
-	if ( preg_match( '%href=["\'](' . preg_quote( set_url_scheme( home_url(), 'http' ) ) . ')%i', $text ) ||
-	     preg_match( '%href=["\'](' . preg_quote( set_url_scheme( home_url(), 'https' ) ) . ')%i', $text )
-	) {
-		return "<a $text>";
+	if ( ! empty( $atts['href'] ) ) {
+		if ( in_array( strtolower( wp_parse_url( $atts['href'], PHP_URL_SCHEME ) ), array( 'http', 'https' ), true ) ) {
+			if ( strtolower( wp_parse_url( $atts['href'], PHP_URL_HOST ) ) === strtolower( wp_parse_url( home_url(), PHP_URL_HOST ) ) ) {
+				return "<a $text>";
+			}
+		}
 	}
 
 	if ( ! empty( $atts['rel'] ) ) {
@@ -2743,11 +2751,11 @@ function wp_rel_nofollow_callback( $matches ) {
 
 		$html = '';
 		foreach ( $atts as $name => $value ) {
-			$html .= "{$name}=\"$value\" ";
+			$html .= "{$name}=\"" . esc_attr( $value ) . "\" ";
 		}
 		$text = trim( $html );
 	}
-	return "<a $text rel=\"$rel\">";
+	return "<a $text rel=\"" . esc_attr( $rel ) . "\">";
 }
 
 /**
